@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'RobotoMono';
+  src: url("./fonts/Roboto-Light.ttf");
+}
+
+* {
+  font-family: 'Montserrat', RobotoMono;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: #fff;
+  background: linear-gradient(to right, rgb(20, 30, 48), rgb(36, 59, 85));
+}
